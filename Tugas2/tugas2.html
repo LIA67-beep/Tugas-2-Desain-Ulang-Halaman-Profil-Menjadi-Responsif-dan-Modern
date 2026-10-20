@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Rizqi Aulia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#profil">Tentang Saya</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#pendidikan">Riwayat Pendidikan</a>
+                            </li>
+
+                            <li class="nav-item">
+                             <a class="nav-link active" aria-current="page" href="#keahlian">Keahlian & Hobi</a>
+                            </li>
+
+                            <li class="nav-item">
+                             <a class="nav-link active" aria-current="page" href="#kontak">Kontak</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Ijazah & Sertifikat
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#sertiff">Ijazah</a></li>
+                                    <li><a class="dropdown-item" href="#sertiff">Sertifikat</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Dan lain-lain</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">A12.2025.07367</a>
+                            </li>
+                </ul>
+                 <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row aria-items-center my-3">
+        <div class="col-auto pe-2">
+            <hr>
+        </div>
+
+        <div class="col ps-1">
+            <p class="mb-0">
+                .
+            </p>
+        </div>
+
+         <header>
+        <center>
+            <h1>PORTOFOLIO RIZQI AULIA</h1>
+            <h3>Program Studi Sistem Informasi - Universitas Dian Nuswantoro</h3>
+            <!-- membuat garis -->
+            <hr size="3" color="black" width="100%">
+        </center>
+    </header>
+
+    <hr size="1" color="gray" width="100%">
+
+    <!-- Bagian Profil -->
+    <section id="profil">
+        <h2>A. Profil Saya</h2>
+
+        <!-- Gambar dengan atribut HTML bawaan (align="left" untuk perataan teks) -->
+        <!-- hspace="15" untuk jarak horizontal 15 pixel antara gambar dan elemen/teks di sekitarnya. -->
+        <img src="Images/UdinusLogo.jpg" alt="Maaf Foto belum bisa di akses" width="180" height="180" align="left" hspace="20">
+
+        <p>
+            Halo! Nama saya Rizqi Aulia. Saya adalah mahasiswa aktif Program Studi
+            Sistem Informasi di Universitas Dian Nuswantoro. Saya memiliki ketertarikan
+            yang besar dalam bidang pengembangan aplikasi web, perancangan basis data,
+            serta analisis Sistem Informasi. Saya senang mempelajari teknologi baru
+            yang dapat membantu menyelesaikan berbagai permasalahan di bidang teknologi
+            informasi. Selain itu, saya juga tertarik untuk mengembangkan kemampuan
+            dalam pemrograman dan pembuatan sistem yang mudah digunakan. Selama menjadi
+            mahasiswa, saya terus berusaha meningkatkan pengetahuan dan keterampilan
+            melalui berbagai tugas dan proyek perkuliahan.
+        </p>
+
+        <p>
+            Halaman web ini dibuat menggunakan HTML serta menggunakan booststrap
+            untuk memenuhi instruksi pembuatan struktur dasar web. Dalam pembuatan
+            halaman ini, saya menggunakan berbagai tag HTML untuk menyusun struktur
+            dan menampilkan informasi. Saya juga mempelajari fungsi dari setiap tag
+            agar dapat digunakan sesuai dengan kebutuhan halaman web. Pembuatan
+            halaman ini menjadi salah satu latihan untuk memahami dasar-dasar
+            pengembangan web. Dengan latihan ini, saya berharap dapat memahami HTML
+            dengan lebih baik dan mampu menggunakannya untuk membuat halaman web
+            yang lebih kompleks.
+        </p>
+
+        <!-- <br clear="all"> membuat elemen berikutnya turun ke bawah dan tidak lagi dipengaruhi oleh gambar yang di-float. -->
+        <br clear="all">
+    </section>
+
+        <br>
+
+    <!-- Bagian Pendidikan (Tabel Murni) -->
+    <section id="pendidikan">
+        <h2>B. Riwayat Pendidikan</h2>
+
+        <style>
+            table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+            }
+
+            td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+            }
+
+            tr:nth-child(even) {
+  background-color: #dddddd;
+            }
+        </style>
+        
+        <!-- Tabel menggunakan atribut HTML bawaan: border, cellpadding, cellspacing -->
+        <table border="1" cellpadding="8" cellspacing="0" width="100%">
+            <tr bgcolor="#oldlace">
+                <th><font color="white">Tingkat Pendidikan</font></th>
+                <th><font color="white">Nama Instansi / Sekolah</font></th>
+                <th><font color="white">Tahun</font></th>
+                <th><font color="white">Keterangan</font></th>
+            </tr>
+
+            <tr>
+                <td>Sekolah Dasar (SD)</td>
+                <td>SDN Kauman Blora</td>
+                <td>2013 - 2019</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Sekolah Menengah Pertama (SMP)</td>
+                <td>SMPN 1 Blora</td>
+                <td>2019 - 2022</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Sekolah Menengah Atas (SMA)</td>
+                <td>
+                    <a href="https://sma1blora.sch.id" target="_blank">
+                       SMAN 1 Blora
+                    </a>
+                </td>
+                <td>2022 - 2025</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Perguruan Tinggi (S1)</td>
+                <td>
+                    <a href="https://www.dinus.ac.id" target="_blank">
+                        Universitas Dian Nuswantoro
+                    </a>
+                </td>
+                <td>2025 - Sekarang</td>
+                <td>Sistem Informasi</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Bagian Keahlian & Hobi (List HTML) -->
+    <section id="keahlian">
+        <h2>C. Hobi & Minat</h2>
+
+        <h5> Berikut ini adalah beberapa Hobi dan minat saya</h5>
+        <ul>
+            <li>Mempelajari dan mencoba kuis di <a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+            <li>Eksplorasi pembuatan aplikasi, web, maupun game</li>
+            <li>Mempelajari bahasa asing</li>
+            <li>Sangat tertarik dan selalu ingin belajar hal baru yang belum dikenal banyak orang</li>
+        </ul>
+    </section>
+</style>
+
+    <hr>
+    <hr>
+
+    <section id="sertiff">
+     <div class="sertifikat" id="sertifikat">
+         <h2>D. Ijazah & Sertifikat</h2>
+        <!--Sertifikat1-->
+        <div class="kartu-ijazah-sertifikat">
+            <div class="kotak-gambar">
+              <label for="ijazah">
+             <img src="Images/IjazahLoremIpsum.png" alt="Ijazah" style="max-width: 300px;>
+            </div>
+        </div>
+
+        <div class="kartu-sertifikat">
+         <div class="kotak-gambar">
+             <label for="sertif">
+            <img src="Images/SertifikatLoremIpsum.png" alt="sertifikat" style="max-width: 300px;>
+         </div>
+           
+        
+        </div>
+     </div>
+       
+
+    </section> 
+
+    <hr>
+    <!-- Bagian Form Kontak -->
+    <section id="kontak">
+    <h2>E. Form Kontak Pengunjung</h2>
+    <p>Silakan isi form di bawah ini untuk mengirimkan pesan:</p>
+
+    <!-- Form murni HTML -->
+    <form action="simpan.php" method="post">
+        <table border="0" cellpadding="5">
+            <tr>
+                <td><label for="fnama">Nama Lengkap</label></td>
+                <td>:</td>
+                <td><input type="text" id="fnama" name="fnama" size="30" required></td>
+            </tr>
+            <tr>
+                <td><label for="femail">Email</label></td>
+                <td>:</td>
+                <td><input type="email" id="femail" name="femail" size="30" required></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" id="pria" name="fjkel" value="Pria">
+                    <label for="pria">Pria</label>
+                    <input type="radio" id="wanita" name="fjkel" value="Wanita">
+                    <label for="wanita">Wanita</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="fprodi">Program Studi</label></td>
+                <td>:</td>
+                <td>
+                    <select id="fprodi" name="fprodi">
+                        <option value="SI">Sistem Informasi S1</option>
+                        <option value="TI">Teknik Informatika S1</option>
+                        <option value="DKV">Desain Komunikasi Visual S1</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi / Minat</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" id="coding" name="fhobi[]" value="Coding">
+                    <label for="coding">Coding</label>
+                    <input type="checkbox" id="reading" name="fhobi[]" value="Membaca">
+                    <label for="reading">Membaca</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="fpesan">Pesan</label></td>
+                <td>:</td>
+                <td>
+                    <textarea id="fpesan" name="fpesan" rows="4" cols="32"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="submit" value="Kirim Pesan">
+                    <input type="reset" value="Batal">
+                </td>
+            </tr>
+        </table>
+    </form>
+</section>
+
+<br><hr size="1" color="black">
+<footer>
+    <center>
+        <p>&copy; 2026 Rizqi Aulia - Pemrograman Web Dasar, Sistem Informasi Universitas Dian Nuswantoro</p>
+    </center>
+</footer>
+
+</body>
+
+<script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
